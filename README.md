@@ -1,8 +1,15 @@
 # CloudScale - Cloud Infrastructure Monitoring & Auto Scaling Dashboard
 
+[![SRS Document](https://img.shields.io/badge/Documentation-Software%20Requirements%20Specification%20(SRS)-2563eb?style=for-the-badge&logo=googledocs&logoColor=white)](docs/SRS.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge)](LICENSE)
+[![React 18](https://img.shields.io/badge/Frontend-React%2018%20%2B%20Vite-61dafb?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![AWS Architecture](https://img.shields.io/badge/AWS-EC2%20ASG%20%7C%20ALB%20%7C%20RDS-ff9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)](https://aws.amazon.com/)
+
 CloudScale is an enterprise-grade cloud observability dashboard designed to demonstrate **CPU-based EC2 Auto Scaling**, **AWS Application Load Balancers (ALB)**, **Spring Boot microservices**, **Amazon RDS for MySQL**, **GitHub Actions CI/CD pipelines**, and **API Rate Limiting**.
 
 The application is built with **React + Vite**, featuring custom interactive simulations for traffic spikes, auto-scaling policy triggers, deployment pipelines, and token-bucket rate limiting—with zero external CSS framework dependencies.
+
+> 📄 **Official Software Requirements Specification (SRS)**: The complete IEEE 830 / ISO/IEC/IEEE 29148 specification is available in Markdown format at [docs/SRS.md](docs/SRS.md) (or root [SRS.md](SRS.md)) and as a formatted Word document at [docs/CloudScale_SRS_Document.docx](docs/CloudScale_SRS_Document.docx).
 
 ---
 
